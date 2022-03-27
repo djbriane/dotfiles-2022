@@ -1,0 +1,10 @@
+# PATH extensions go here
+
+# Add Homebrew to the `$PATH`
+export PATH="/opt/homebrew/bin:$PATH";
+
+# Add Homebrew Ruby to the `$PATH`
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH";
+
+# Add Node 14 to the PATH (for some repos)
+export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
